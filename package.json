@@ -1,0 +1,25 @@
+{
+  "name": "midi_sync",
+  "version": "1.0.0",
+  "description": "**pulse** is a small node.js server and client that pipes **MIDI Clock**  messages to your browser through a WebSocket. It also  interpolates the *bpm* and current  *phase*.",
+  "main": "emit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noio/pulse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noio/pulse/issues"
+  },
+  "homepage": "https://github.com/noio/pulse#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "midi": "^0.9.5",
+    "socket.io": "^2.0.4",
+    "socket.io-client": "^2.0.4"
+  }
+}
