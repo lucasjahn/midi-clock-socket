@@ -4,7 +4,9 @@
   "description": "**pulse** is a small node.js server and client that pipes **MIDI Clock**  messages to your browser through a WebSocket. It also  interpolates the *bpm* and current  *phase*.",
   "main": "emit.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "emitter": "node client/emitter.js",
+    "listener": "node client/listener.js",
+    "server": "node server/server.js" 
   },
   "repository": {
     "type": "git",
